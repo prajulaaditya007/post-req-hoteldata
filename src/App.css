@@ -1,0 +1,72 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the app container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the user list */
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-details {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Styling for the form */
+.form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the checkout button */
+.checkout-button {
+  background-color: #dc3545;
+}
+
+.checkout-button:hover {
+  background-color: #c82333;
+}

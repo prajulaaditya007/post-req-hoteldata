@@ -1,0 +1,1 @@
+export interface IHotelGuest {    id: number;    name: string;    email: string;    age: number;    birthdate: string;    gender: string;    checkinDate: string;    checkoutDate: string;}
